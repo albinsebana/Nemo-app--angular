@@ -1,0 +1,40 @@
+/* Add some styling to the title */ 
+h1 { 
+  text-align: center; 
+  font-size: 36px; 
+  margin-bottom: 20px; 
+  color: rgb(3, 53, 36); 
+  border: black solid; 
+  padding: 8px; 
+  background-color: rgb(211, 11, 184); 
+} 
+
+ 
+ 
+.circle-container { 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  max-width: 1000px;  
+} 
+
+ 
+
+.circle { 
+  width: 140px; 
+  height: 140px; 
+  border-radius: 75px; 
+  background-size: cover;  
+  background-color: blue;   
+  margin: 25px; 
+} 
+ 
+ 
+#result { 
+  margin-top: 20px; 
+  font-size: 40px; 
+  white-space: pre-line; 
+  text-align: center; 
+  color: blueviolet; 
+
+}
